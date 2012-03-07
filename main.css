@@ -1003,14 +1003,39 @@ uzgNfIJaZ/o9S6d56kkpn89lhZAfQy4Ph1Z4SDGAC5ija6eDpI43tKq+OJHxzIyCOGi+Dzms6uFUs\
     );
 }
 
+h1, h3, h5 {
+    font-weight: 700;
+}
+
+h2, h4, h6 {
+    font-weight: 300;
+}
+
 h1 {
-    font: 700 64px/.9 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 64px;
+    line-height: .8;
+    letter-spacing: -6px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 24px;
+    letter-spacing: -2px;
 }
 
 h6 {
     font-size: 24px;
-    font-weight: 300;
-    line-height: 1.5;
 }
 
 a {
