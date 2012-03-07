@@ -25,7 +25,3 @@ a {
 a:hover {
     margin-left: 5px;
 }
-
-a::before {
-    content: '\00BB  ';
-}
