@@ -15,12 +15,7 @@ html, body {
 }
 
 body {
-    background-image: -webkit-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    background-image: -moz-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    background-image: -ms-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    background-image: -o-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    background-image: radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    
+    background-image: radial-gradient( ellipse, rgba( 255,255,255,.4 ), rgba( 0,0,0,.4 ) );
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #222;
 }
@@ -1052,8 +1047,6 @@ a {
 }
 
 .paper > .shadowWrapper {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     -box-sizing: border-box;
     
 	width: 100%;
@@ -1063,11 +1056,7 @@ a {
 	background-color: #ddd;
 	border: 1px solid #ddd;
     
-	-webkit-box-shadow: 0 1px 8px #000, 0 0 40px rgba(0,0,0,0.40) inset;
-	-moz-box-shadow: 0 1px 8px #000, 0 0 40px rgba(0,0,0,0.40) inset;
-	-ms-box-shadow: 0 1px 8px #000, 0 0 40px rgba(0,0,0,0.40) inset;
-	-o-box-shadow: 0 1px 8px #000, 0 0 40px rgba(0,0,0,0.40) inset;
-	box-shadow: 0 1px 8px #000, 0 0 40px rgba(0,0,0,0.40) inset;
+	box-shadow: 0 1px 8px #000, 0 0 40px rgba( 0,0,0,.4 ) inset;
 }
 
 .paper > .shadowWrapper::before,
@@ -1078,27 +1067,15 @@ a {
 	bottom: 8px;
 	width: 50%;
 	height: 100px;
-	-webkit-box-shadow: 0 16px 8px rgba(0,0,0,0.50);
-	-moz-box-shadow: 0 16px 8px rgba(0,0,0,0.50);
-	-ms-box-shadow: 0 16px 8px rgba(0,0,0,0.50);
-	-o-box-shadow: 0 16px 8px rgba(0,0,0,0.50);
-	box-shadow: 0 16px 8px rgba(0,0,0,0.50);
+	box-shadow: 0 16px 8px rgba( 0,0,0,.5 );
 }
 
 .paper > .shadowWrapper::before {
-	-webkit-transform: skew(-3deg, -2deg);
-	-moz-transform: skew(-3deg, -2deg);
-	-ms-transform: skew(-3deg, -2deg);
-	-o-transform: skew(-3deg, -2deg);
-	transform: skew(-3deg, -2deg);
+	transform: skew( -3deg, -2deg );
 	left: 4px;
 }
 
 .paper > .shadowWrapper::after {
-	-webkit-transform: skew(3deg, 2deg);
-	-moz-transform: skew(3deg, 2deg);
-	-ms-transform: skew(3deg, 2deg);
-	-o-transform: skew(3deg, 2deg);
-	transform: skew(3deg, 2deg);
+	transform: skew( 3deg, 2deg );
 	right: 4px;
 }
