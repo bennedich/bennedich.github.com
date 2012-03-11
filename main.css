@@ -12,17 +12,7 @@
 
 html, body {
     height: 100%;
-}
-
-body {
-    background-image: -webkit-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    background-image: -moz-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    background-image: -ms-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    background-image: -o-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    background-image: radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
-    
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #222;
+    overflow: auto;
 }
 
 html {
@@ -1003,6 +993,17 @@ uzgNfIJaZ/o9S6d56kkpn89lhZAfQy4Ph1Z4SDGAC5ija6eDpI43tKq+OJHxzIyCOGi+Dzms6uFUs\
     );
 }
 
+body {
+    background-image: -webkit-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
+    background-image: -moz-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
+    background-image: -ms-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
+    background-image: -o-radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
+    background-image: radial-gradient( ellipse, rgba(255,255,255,0.40), rgba(0,0,0,0.40) );
+    
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #222;
+}
+
 h1, h3, h5 {
     font-weight: 700;
 }
@@ -1048,7 +1049,7 @@ a {
 **********/
 
 .paper {
-    position: absolute;
+    position: relative;
 }
 
 .paper > .shadowWrapper {
